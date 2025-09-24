@@ -1,0 +1,208 @@
+*{ /* *semua komponen di satu halaman*/
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /*IE & Edge lama  */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Poppins';font-size: 8px;
+    background-color: #1D1F27;
+}
+.gradBlackGrey {
+    background-image: linear-gradient(to bottom right, black, grey);
+    box-shadow: 5px 5px 10px rgba(71, 70, 70, 0.5);
+}
+.flex-reverse-row{
+    flex-direction: row-reverse;
+}
+.scrollable {
+
+}
+header{
+    z-index: 1000;
+    height: 22px;
+    width: auto;
+    margin: 0px 10px;
+    padding: 0px 5px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(2px) saturate(80%);
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+header h1{
+    font-size: 18px;
+}
+header button{
+    display: none;
+    border: none;
+    background: none;
+    margin-right: 5px;
+    cursor: pointer;
+    color:azure;
+}
+section{
+    background-color: #1D1F27;
+    margin: 0px 7px;
+    scroll-margin-top: 22px;
+    color: azure;
+}
+nav a{
+    color: azure;
+    font-size: 12px;
+    margin-left: 10px;
+    height: 100%;
+    text-decoration: none;
+}
+nav{
+    height: 100%;
+}
+@media(max-width: 400px){
+    header button{
+        display: inherit;
+    }
+    nav{
+        display: none;
+        top:22px;
+        flex-direction: column;
+        left: 0px;
+        position: fixed;
+        height: auto;
+        background-color: rgba(29, 31, 39, 0.4); /* transparan */
+        backdrop-filter: blur(2px) saturate(80%);
+        gap: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+    nav a{
+        height: auto;
+        width:fit-content;
+    }
+    header{
+        background-color: #1D1F27;
+        backdrop-filter: none;
+        border-radius: 0px;
+        margin: 0px;
+        padding-left: 7px;
+        justify-content: left;
+    }
+    nav.show{
+        display: flex;
+    }
+}
+#skills-wrapper{
+    overflow: hidden;
+}
+#skills{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-auto-flow: column;
+    grid-auto-columns: 125px;
+    align-items: center;
+    background-color: #16192d;
+    animation: moveSlider 15s linear infinite;
+}
+#skills:hover{
+    animation-play-state: paused;
+}
+.skill-card{
+    gap: 5px;
+    background-color: aliceblue;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+}
+.skill-card:hover{
+    transform: scale(1.3);
+}
+@keyframes moveSlider{
+    from {
+        transform: translateX(0);
+    }to{
+        transform: translateX(calc(-135px * 6));
+    }
+}
+.skill-card img{
+    height: 50px;
+}
+#Hero{
+}
+.button-pink{
+    border: none;
+    background-color:#FF1D5A;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+.button-pink:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.divide-two-horz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Hero-social-media{
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Hero-social-media a{
+    text-decoration: none;
+}
+.Hero-social-media a i{
+    font-size: 48px;
+    color: white;
+    transition: color 0.3s;
+}
+.Hero-social-media a i:hover {
+    cursor: pointer;
+    color: #FF1D5A; /* warna berubah saat hover */
+}
+#Hero-left{
+    max-width: 300px;
+}
+
+#About{
+    align-items: center;
+}
+
+#about-text{
+    flex: 1;
+}
+#Project{
+}
+.project-card{
+    display: flex;
+    height: 80px;
+    padding:7px;
+    gap: 5px;
+    border: 1px solid #292828;
+    /* overflow: hidden; */
+}
+.project-description{
+    height: 65px;
+    overflow: scroll;
+}
+.reverse-row-flex{
+    flex-direction: row-reverse;
+}
+.project-title{
+    font-size: 10px;
+}
+#Contact{
+}
