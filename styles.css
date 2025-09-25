@@ -74,6 +74,10 @@ nav a{
 nav{
     height: 100%;
 }
+#Hero-left{
+    width: 500px;
+    height: 400px;
+}
 @media(max-width: 900px){
     
     section{
@@ -186,10 +190,6 @@ nav{
 .Hero-social-media a i:hover {
     cursor: pointer;
     color: #FF1D5A; /* warna berubah saat hover */
-}
-#Hero-left{
-    width: 500px;
-    height: 400px;
 }
 #profession{
     color:#FF1D5A;
