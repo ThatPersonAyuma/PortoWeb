@@ -114,6 +114,9 @@ nav{
     #hero-img{
         display: none;
     }
+    #Hero-left{
+        height: 550px;
+    }
 }
 .divide-two-horz{
     display: flex;
