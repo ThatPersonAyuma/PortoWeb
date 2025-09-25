@@ -121,6 +121,9 @@ nav{
     #skills-wrapper{
         padding-top: 50px;
     }
+    #About{
+        flex-direction: column;
+    }
 }
 .divide-two-horz{
     display: flex;
