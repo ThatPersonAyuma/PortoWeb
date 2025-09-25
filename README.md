@@ -39,5 +39,5 @@
   <li>Memudahkan pengunjung mengenal, melihat karya, dan menghubungi pemilik</li>
   <li>Mendukung branding diri dan showcase keahlian teknologi</li>
 </ul>
-<h3>Reference</h3>
-<p>reference: https://cdn.dribbble.com/userupload/37268114/file/original-97c8520ce6de8ad2220f5a802386c166.jpg?resize=1024x768&vertical=center</p>
+<h3>⭐ Referensi</h3>
+<p>Referensi: https://cdn.dribbble.com/userupload/37268114/file/original-97c8520ce6de8ad2220f5a802386c166.jpg?resize=1024x768&vertical=center</p>
