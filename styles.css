@@ -78,53 +78,7 @@ nav{
     overflow-x: hidden;
     padding-bottom: 25px;
 }
-@media(max-width: 900px){
-    
-    section{
-        padding: 20px 15px;
-    }
-    header button{
-        display: inherit;
-    }
-    nav{
-        padding: 0px, 18px;
-        display: none;
-        top:50px;
-        flex-direction: column;
-        left: 0px;
-        position: fixed;
-        height: auto;
-        background-color: rgba(29, 31, 39, 0.4); /* transparan */
-        backdrop-filter: blur(2px) saturate(80%);
-        gap: 10px;
-        padding: 10px;
-        width: 100%;
-    }
-    nav a{
-        height: auto;
-        width:fit-content;
-    }
-    header{
-        background-color: #363943;
-        backdrop-filter: none;
-        border-radius: 0px;
-        margin: 0px;
-        padding: 5px 20px;
-        justify-content: left;
-    }
-    nav.show{
-        display: flex;
-    }
-    #hero-img{
-        display: none;
-    }
-    #skills-wrapper{
-        padding-top: 100px;
-    }
-    #About{
-        flex-direction: column;
-    }
-}
+
 .divide-two-horz{
     display: flex;
     align-items: center;
@@ -261,7 +215,7 @@ nav{
 .project-card{
     display: flex;
     padding:7px;
-    margin: 10px 0px;
+    margin: 15px 0px;
     gap: 5px;
     border: 1px solid #292828;
     /* overflow: hidden; */
@@ -297,4 +251,59 @@ footer{
     background-color: #191e42;
     color:azure;
     padding: 5px;
+}
+@media(max-width: 900px){
+    
+    section{
+        padding: 20px 15px;
+    }
+    header button{
+        display: inherit;
+    }
+    nav{
+        padding: 0px, 18px;
+        display: none;
+        top:50px;
+        flex-direction: column;
+        left: 0px;
+        position: fixed;
+        height: auto;
+        background-color: rgba(29, 31, 39, 0.4); /* transparan */
+        backdrop-filter: blur(2px) saturate(80%);
+        gap: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+    nav a{
+        height: auto;
+        width:fit-content;
+    }
+    header{
+        background-color: #363943;
+        backdrop-filter: none;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 5px 20px;
+        justify-content: left;
+    }
+    nav.show{
+        display: flex;
+    }
+    #hero-img{
+        display: none;
+    }
+    #skills-wrapper{
+        padding-top: 100px;
+    }
+    #About{
+        flex-direction: column;
+    }
+    .project-img{
+        height: 200px;
+        width:auto;
+        object-fit: contain;
+    }
+    .project-card{
+        flex-direction: column;
+    }
 }
