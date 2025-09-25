@@ -3,7 +3,7 @@
 <h2>PortoWeb - Aditya Bayu Pratama</h2>
 <p>
   PortoWeb adalah website portofolio digital yang menampilkan profil, keahlian, karya/proyek, dan informasi kontak Aditya Bayu Pratama.
-  Website ini ditujukan untuk showcase profesional, portofolio, dan branding diri di bidang teknologi.
+  Website ini ditujukan untuk showcase profesional, portofolio, branding diri di bidang teknologi, serta sebagai salah satu tugas pada mata kuliah pemrograman berbasis website. Website ini dibangun dengan HTML, Vanilla CSS, serta JavaScript dengan library JQuery.
 </p>
 
 <h3>🔗 Section Website</h3>
