@@ -74,6 +74,10 @@ nav a{
 nav{
     height: 100%;
 }
+#skills-wrapper{
+    overflow-x: hidden;
+    padding-bottom: 25px;
+}
 @media(max-width: 900px){
     
     section{
@@ -193,10 +197,6 @@ nav{
 }
 .font-black{
     color: black;
-}
-#skills-wrapper{
-    overflow-x: hidden;
-    padding-bottom: 25px;
 }
 #skills-wrapper h2{
     padding-bottom: 20px;
